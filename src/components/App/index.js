@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Logo } from '../Icons';
+import Calendar from '../Calendar';
 import './App.css';
 
 class App extends Component {
@@ -10,11 +11,10 @@ class App extends Component {
           <div className="App-logo">
             <Logo />
           </div>
-          <h1 className="App-title">Welcome to React</h1>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <div>
+          <Calendar />
+        </div>
       </div>
     );
   }

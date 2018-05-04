@@ -1,6 +1,9 @@
-## ElderScroll
+## Whis
 
 ### Other Potential names
+
+#### All Knowing Document
+* Elder Scroll
 
 #### Attendants
 * Whis

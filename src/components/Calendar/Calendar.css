@@ -1,0 +1,7 @@
+.calendar-container {
+  position: relative;
+  min-height: 100vh;
+  height: min-content;
+  display: flex;
+  flex-direction: column;
+}
