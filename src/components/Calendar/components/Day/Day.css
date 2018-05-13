@@ -1,0 +1,40 @@
+.agenda {
+  display: flex;
+  flex-direction: row;
+}
+
+.hour-block {
+  height: 100px;
+  border-top: solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.time {
+  flex: 1 1 auto;
+  border-right: dashed 2px;
+}
+
+.activities {
+  flex: 8 2 auto;
+}
+
+.hour-block__qtr--first {
+  border-bottom: dashed 2px;
+  flex: 1 0 0;
+}
+
+.hour-block__qtr--second {
+  border-bottom: solid 2px;
+  flex: 1 0 0;
+}
+
+.hour-block__qtr--third {
+  border-bottom: dashed 2px;
+  flex: 1 0 0;
+}
+
+.hour-block__qtr--fourth {
+  flex: 1 0 0;
+}

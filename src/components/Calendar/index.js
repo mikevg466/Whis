@@ -15,7 +15,8 @@ class Calendar extends Component{
     super(props);
 
     this.state = {
-      mode: modes.MONTH,
+      mode: modes.DAY,
+      moment: moment(),
     };
   }
 
@@ -38,10 +39,10 @@ class Calendar extends Component{
       <div className='calendar-container'>
         {
           this.state.mode === modes.DAY
-            ? <Day />
+            ? <Day moment={this.state.moment} />
             : this.state.mode === modes.WEEK
-              ? <Week />
-              : <Month />
+              ? <Week moment={this.state.moment} />
+              : <Month moment={this.state.moment} />
         }
       </div>
     )
